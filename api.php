@@ -60,7 +60,7 @@ if (strpos($_msg, 'สอนมิสเตอร์หมู') !== false) {
     $arrPostData = array();
     $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
     $arrPostData['messages'][0]['type'] = "text";
-    $arrPostData['messages'][0]['text'] = 'อู๊ดดด คุณสามารถสอนให้ฉลาดได้เพียงพิมพ์: สอนหมู[คำถาม|คำตอบ]';
+    $arrPostData['messages'][0]['text'] = 'อู๊ดดด คุณสามารถสอนให้ฉลาดได้เพียงพิมพ์: สอนมิสเตอร์หมู[คำถาม|คำตอบ]';
   }
 }
  
