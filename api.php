@@ -62,9 +62,9 @@ if (strpos($_msg, 'สอนมิสเตอร์หมู') !== false) {
     $arrPostData['messages'][0]['type'] = "text";
     $arrPostData['messages'][0]['text'] = 'แหลงไอไหร กูงงเด! คุณสามารถสอนให้ฉลาดได้เพียงพิมพ์: สอนมิสเตอร์หมู[คำถาม|คำตอบ]';
     //
-    //$arrPostData['replyToken'] = $arrJson['events'][1]['replyToken'];
-    //$arrPostData['messages'][1]['type'] = "text";
-    //$arrPostData['messages'][1]['text'] = 'version facebook messenger เร็วๆนี้!';
+    $arrPostData['replyToken'] = $arrJson['events'][1]['replyToken'];
+    $arrPostData['messages'][1]['type'] = "text";
+    $arrPostData['messages'][1]['text'] = 'version facebook messenger เร็วๆนี้!';
   }
 }
  
