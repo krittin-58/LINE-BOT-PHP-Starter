@@ -17,7 +17,7 @@ $message_to_reply = '';
  * Some Basic rules to validate incoming messages
  */
  
-$api_key="<mLAP API KEY>";
+$api_key="fwSteo00yZkgXR0OurKQLJXfUUm9BXdK";
 $url = 'https://api.mlab.com/api/1/databases/mistermhoo/collections/linebot?apiKey='.$api_key.'';
 $json = file_get_contents('https://api.mlab.com/api/1/databases/mistermhoo/collections/linebot?apiKey='.$api_key.'&q={"question":"'.$message.'"}');
 $data = json_decode($json);
